@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "vercel": "^39.3.0"
   },
   "browserslist": {
     "production": [
